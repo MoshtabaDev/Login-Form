@@ -1,0 +1,25 @@
+:root {
+  --dark-background-color: #090e12;
+  --dark-background-card-color: #0c1117;
+  --dark-titr-color: #f8fafc;
+  --dark-placeholder-color: #384148;
+  --dark-background-buttons-color: #1b64d5;
+  --dark-outlines-color: #334155;
+  --dark-links: #8ab4f8;
+  --dark-hover-color: #3b82f6;
+  --dark-links-color: #60a5fa;
+  --dark-google-color: #e2e8f0;
+  --dark-github-color: #000000;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  background-color: var(--dark-background-color);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}

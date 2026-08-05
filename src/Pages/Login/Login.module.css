@@ -1,0 +1,58 @@
+.container {
+  width: 300px;
+  background-color: var(--dark-background-card-color);
+  border: 1px solid var(--dark-outlines-color);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.container .form {
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+.container .form input {
+  background-color: var(--dark-background-card-color);
+  padding: 8px;
+  border: 1px solid var(--dark-outlines-color);
+  border-radius: 5px;
+}
+
+.container .form input::placeholder {
+  color: var(--dark-placeholder-color);
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.container .form input:focus {
+  outline: none;
+}
+
+.container .LoginButton button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: var(--dark-background-buttons-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 40px;
+  cursor: pointer;
+}
+
+.totalUsers {
+  margin-top: "20px";
+  font-size: "12px";
+  color: "#666";
+}
+
+.notSignIn {
+  text-decoration: none;
+  color: #4b69fc;
+  font-size: 1.1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.notSignIn:hover {
+  color: #ffffff;
+}
