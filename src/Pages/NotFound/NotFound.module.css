@@ -1,0 +1,36 @@
+.container {
+  background-color: #0c1117;
+  border: 2px solid #006cfd;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 0 20px #006cfd;
+}
+
+.container .errorPic img {
+  width: 350px;
+  object-fit: contain;
+}
+
+.container .buttons {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.container .buttons .button {
+  background-color: #006cfd;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container .buttons .button:last-child {
+  background-color: transparent;
+  border: 1px solid #006cfd;
+  color: #006cfd;
+}
