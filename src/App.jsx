@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/Login-Form" element={<Navigate to="/" replace/>} />
         <Route path="/" element={<SignIn />} />
         <Route path="/Login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
