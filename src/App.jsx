@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route, Navigate} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import SignIn from "./Pages/Sign-in/SignIn";
 import Login from "./Pages/Login/Login";
 import NotFound from "./Pages/NotFound/NotFound";
